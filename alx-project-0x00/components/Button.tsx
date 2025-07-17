@@ -2,12 +2,7 @@
 // components/Button.tsx
 
 
-type ButtonProps = {
-  title: string;
-  size?: 'small' | 'medium' | 'large';
-  rounded?: 'sm' | 'md' | 'full';
-};
-
+import { ButtonProps } from "@/interfaces";
 const Button: React.FC<ButtonProps> = ({
   title,
   size = 'medium',
