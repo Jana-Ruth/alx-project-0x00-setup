@@ -13,10 +13,11 @@ const Landing: React.FC = () => {
         <Card />
         </div>
         <div className="flex gap-4 flex-wrap">
-        <Button title="Small Button" size="small" rounded="sm" />
-        <Button title="Medium Button" size="medium" rounded="md" />
-        <Button title="Large Button" size="large" rounded="full" />
-        <Button title="Custom Combo" size="large" rounded="sm" />
+        <Button title="Small Button" size="small" rounded="sm" styles="rounded-sm" />
+<Button title="Medium Button" size="medium" rounded="md" styles="rounded-md" />
+<Button title="Large Button" size="large" rounded="full" styles="rounded-full" />
+<Button title="Custom Combo" size="large" rounded="sm" styles="rounded-lg" />
+
       </div>
     </div>
   )
